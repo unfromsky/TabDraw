@@ -1,0 +1,26 @@
+# ==========================================
+# TabDraw .gitignore
+# ==========================================
+
+# Gradle 快取與暫存
+.gradle/
+build/
+app/build/
+**/build/
+
+# 本機私有環境設定（包含本機 Android SDK 路徑與使用者名稱）
+local.properties
+wintruststore.jks
+
+# IDE 與編輯器設定
+.idea/
+*.iml
+.vscode/
+*.suo
+*.user
+
+# 系統快取與暫存檔
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
